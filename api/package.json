@@ -1,0 +1,22 @@
+{
+	"name": "jobusu-weather-app-api",
+	"private": true,
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "tsx watch src/server.ts",
+		"build": "tsc",
+		"start": "node dist/server.js"
+	},
+	"author": "jobusu",
+	"license": "ISC",
+	"type": "module",
+	"dependencies": {
+		"express": "^5.2.1"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.6",
+		"@types/node": "^26.6.4",
+		"tsx": "^4.23.15",
+		"typescript": "^7.0.2"
+	}
+}
